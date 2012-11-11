@@ -215,6 +215,10 @@ table.hover tbody tr:hover td, table.hover tbody tr:hover th {
 	table, caption, thead, tbody, th, td {
 		display: block;
 	}
+	caption {
+		font-weight: bold;
+		text-align: left;
+	}
 	thead {
 		float: left;
 	}
