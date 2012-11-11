@@ -216,7 +216,7 @@ table.hover tbody tr:hover td, table.hover tbody tr:hover th {
 		display: block;
 	}
 	caption {
-		margin-bottom: 0.25em; /* 4px */
+		padding-bottom: 0.75em; /* 12px */
 		font-weight: bold;
 		text-align: left;
 	}
@@ -232,16 +232,24 @@ table.hover tbody tr:hover td, table.hover tbody tr:hover th {
 		display: table-cell;
 		vertical-align: top;
 	}
-	table.bordered tbody {
-		border-top-width: 1px;
+	table.bordered caption {
 		border-left-width: 1px;
+	}
+	table.bordered caption {
+		border-color: #EEE;
+	}
+	table.bordered tbody {
+		border-left-width: 1px;
+		border-top-width: 1px;
+	}
+	table.bordered tbody {
 		border-color: #EEE;
 	}
 	table.bordered td:first-child {
-		border-top: 0;
+		border-top-width: 0;
 	}
 	table.bordered tr:first-child td {
-		border-left: 0;
+		border-left-width: 0;
 	}
 }
 
