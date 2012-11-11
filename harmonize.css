@@ -211,7 +211,7 @@ table.hover tbody tr:hover td, table.hover tbody tr:hover th {
 	background-color: #F5F5F5;
 }
 
-@media (max-width: 40em) {
+@media (max-width: 35em) { /* 560px */
 	table, caption, thead, tbody, th, td {
 		display: block;
 	}
