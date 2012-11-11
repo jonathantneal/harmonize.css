@@ -220,9 +220,6 @@ table.hover tbody tr:hover td, table.hover tbody tr:hover th {
 		font-weight: bold;
 		text-align: left;
 	}
-	caption {
-		border-color: #E5E5E5;
-	}
 	thead {
 		float: left;
 	}
