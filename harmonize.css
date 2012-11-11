@@ -1,0 +1,365 @@
+/* Document */
+
+html {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html {
+	color: #333;
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	text-rendering: optimizelegibility;
+}
+
+h1.bordered, h2.bordered, h3.bordered, h4.bordered, h5.bordered, h6.bordered {
+	border-bottom-width: 0.25em; /* 9px, 7px, 5.76px, 5px, 4.5px, 4px */
+}
+
+h1.bordered, h2.bordered, h3.bordered, h4.bordered, h5.bordered, h6.bordered {
+	border-bottom-color: #EEE;
+}
+
+h1 {
+	font-size: 2em; /* 36px */
+	line-height: 1.25; /* 45px */
+	margin: 0.25em 0; /* 9px */
+}
+
+h2 {
+	font-size: 1.75em; /* 28px */
+	line-height: 1.3; /* 39px */
+	margin: 0.3215em 0; /* 9px */
+}
+
+h3 {
+	font-size: 1.5em; /* 24px */
+	line-height: 1.25; /* 30px */
+	margin: 0.375em 0; /* 9px */
+}
+
+h4, subline {
+	font-size: 1.25em; /* 20px */
+	line-height: 1.35; /* 27px */
+	margin: 0.45em 0; /* 9px */
+}
+
+h5 {
+	font-size: 1.125em; /* 18px */
+	line-height: 1.3334; /* 24px */
+	margin: 0.5em 0; /* 9px */
+}
+
+h6 {
+	line-height: 1.3125; /* 21px */
+	margin: 0.5625em 0; /* 9px */
+}
+
+/* Blocks */
+
+body {
+	margin: 0.5625em; /* 9px */
+}
+
+article, section {
+	margin: 0 0 1.5em;/* 18px */
+}
+
+p {
+	line-height: 1.5;/* 24px */
+	margin: 0.5625em 0; /* 9px */
+}
+
+p small {
+	line-height: 2;
+}
+
+p img {
+	max-width: 100%;
+}
+
+/* Blockquote */
+
+blockquote {
+	border-left-width: 0.3125em; /* 5px */
+	margin: 1.125em 0; /* 18px */
+	padding-left: 0.9375em; /* 15px */
+}
+
+blockquote {
+	border-color: #EEE;
+}
+
+blockquote footer {
+	font-size: 0.75em; /* 12px */
+	line-height: 1.5; /* 18px */
+}
+
+blockquote footer {
+	color: #999;
+}
+
+blockquote footer:before {
+	content: "\2014 \00A0";
+}
+
+/* Code */
+
+code, pre {
+	border-width: 1px;
+	font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+	font-size: 0.75em; /* 12px */
+}
+
+code, pre {
+	border-color: #E1E1E8;
+	border-radius: 0.3334em; /* 4px */
+	background-color: #F7F7F9;
+}
+
+pre {
+	margin: 0.5625em 0; /* 9px */
+	padding: 0.75em; /* 9px */
+	white-space: pre;
+	white-space: pre-wrap;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+pre {
+	color: #333;
+}
+
+code {
+	display: inline-block;
+	line-height: 0.875em; /* 14px */
+	padding: 0.3334em; /* 4px */
+	vertical-align: text-top;
+}
+
+code {
+	color: #D14;
+}
+
+/* Lists */
+
+ol, ul {
+	margin: 1.125em 0; /* 18px */
+	margin-left: 1.375em;/* 22px */
+}
+
+ol ol, ol ul, ul ol, ul ul {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+li {
+	margin: 0.25em 0;
+	line-height: 1.25;
+}
+
+/* Tables */
+
+table {
+	margin: 1.125em 0; /* 18px */
+	width: 100%;
+}
+
+table {
+	max-width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption {
+	padding: 0.5em;
+}
+
+th, td {
+	padding: 0.5em;
+}
+
+th {
+	font-weight: bold;
+	text-align: left;
+}
+
+table.bordered td, table.striped td {
+	border-color: #DDD;
+	border-top-width: 1px;
+}
+
+table.striped tbody tr:nth-child(odd) td, table.striped tbody tr:nth-child(odd) th {
+  background-color: #F9F9F9;
+}
+
+table.bordered {
+	border-color: #DDD;
+	border-width: 1px 1px 1px 0;
+	border-collapse: separate;
+}
+
+table.bordered th, table.bordered td {
+	border-color: #DDD;
+	border-left-width: 1px;
+}
+
+table.hover tbody tr:hover td, table.hover tbody tr:hover th {
+	background-color: #F5F5F5;
+}
+
+@media (max-width: 40em) {
+	table, caption, thead, tbody, th, td {
+		display: block;
+	}
+	thead {
+		float: left;
+	}
+	tbody {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		white-space: nowrap;
+	}
+	tbody tr {
+		display: table-cell;
+		vertical-align: top;
+	}
+	table.bordered tbody {
+		border-top-width: 1px;
+		border-left-width: 1px;
+		border-color: #EEE;
+	}
+	table.bordered td:first-child {
+		border-top: 0;
+	}
+	table.bordered tr:first-child td {
+		border-left: 0;
+	}
+}
+
+/* Forms */
+
+form {
+	margin: 1.125em 0; /* 18px */
+}
+
+legend {
+	width: 100%;
+	margin-bottom: 0.75em; /* 21px */
+	padding-bottom: 0.125em; /* 3px */
+	font-size: 1.5em; /* 24px */
+	line-height: 1.25; /* 30px */
+	border-bottom-width: 1px;
+}
+
+legend {
+	border-color: #E5E5E5;
+}
+
+label {
+	display: block;
+	line-height: 1.5; /* 24px */
+	margin-bottom: 0.1875em; /* 3px */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+select,
+textarea {
+	border-width: 1px;
+	margin-bottom: 0.5625em; /* 9px */
+	padding: 0.25em 0.375em; /* 4px 6px */
+	line-height: 1.25; /* 20px */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+select,
+textarea {
+	background-color: #FFF;
+	border-color: #CCC;
+	border-radius: 0.25em; /* 4px */
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-o-transition: border linear 0.2s, box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+/* Links */
+
+a[href] {
+	color: #08C;
+}
+
+a[href]:hover, a[href]:active {
+	outline: 0;
+}
+
+a[href]:hover {
+	color: #005580;
+	text-decoration: underline;
+}
+
+.bordered a[href]:hover {
+	text-decoration: none;
+}
+
+/* Emphasis */
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+	font-weight: bold;
+}
+
+small {
+	font-size: 0.75em; /* 12px */
+}
+
+abbr[title] {
+	cursor: help;
+	border-bottom: 1px dotted #999;
+}
+
+/* Highlights */
+
+.muted { color: #999; }
+.warning { color: #C09853; } a.warning:hover { color: #A47E3C; }
+.error { color: #B94A48; } a.error:hover { color: #953B39; }
+.info { color: #3A87AD; } a.info:hover { color: #2D6987; }
+.success { color: #468847; } a.success:hover { color: #356635; }
+tr.success { background-color: #DFF0D8; color: inherit; }
+tr.error { background-color: #F2DEDE; color: inherit; }
+tr.info { background-color: #D9EDF7; color: inherit; }
+tr.warning { background-color: #FCF8E3; color: inherit; }
