@@ -1,0 +1,20 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url("open_sans-regular.eot?") format("eot"), url("open_sans-regular.woff") format("woff"), url("open_sans-regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Open Sans";
+	font-weight: bold;
+	src: url("open_sans-bold.eot?") format("eot"), url("open_sans-bold.woff") format("woff"), url("open_sans-bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Open Sans";
+	font-style: italic;
+	src: url("open_sans-italic.eot?") format("eot"), url("open_sans-italic.woff") format("woff"), url("open_sans-italic.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Open Sans";
+	font-style: italic;
+	font-weight: bold;
+	src: url("open_sans-bolditalic.eot?") format("eot"), url("open_sans-bolditalic.woff") format("woff"), url("open_sans-bolditalic.ttf") format("truetype");
+}

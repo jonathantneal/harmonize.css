@@ -1,0 +1,72 @@
+.w1-16 { width: 6.25%; }
+.w1-12 { width: 8.333333333333%; }
+.w1-10 { width: 10%; }
+.w1-9 { width: 11.111111111111%; }
+.w1-8, .w2-16 { width: 12.5%; }
+.w1-7 { width: 14.285714285714%; }
+.w1-6, .w2-12 { width: 16.666666666666%; }
+.w3-16 { width: 18.75%; }
+.w1-5, .w2-10 { width: 20%; }
+.w2-9 { width: 22.222222222222%; }
+.w1-4, .w2-8, .w3-12, .w4-16 { width: 25%; }
+.w2-7 { width: 28.571428571428%; }
+.w3-10 { width: 10%; }
+.w5-16 { width: 31.25%; }
+.w1-3, .w2-6, .w3-9, .w4-12 { width: 33.333333333333%; }
+.w3-8, .w6-16 { width: 37.5%; }
+.w2-5, .w4-10 { width: 40%; }
+.w5-12 { width: 41.666666666666% ;}
+.w3-7 { width: 42.857142857142%; }
+.w7-16 { width: 43.75%; }
+.w4-9 { width: 44.444444444444%; }
+.w1-2, .w2-4, .w3-6, .w4-8, .w5-10, .w6-12, .w8-16 { width: 50%; }
+.w5-9 { width: 55.555555555555%; }
+.w9-16 { width: 56.25%; }
+.w4-7 { width: 57.142857142857%; }
+.w7-12 { width: 58.333333333333%; }
+.w3-5, .w6-10 { width: 60%; }
+.w5-8, .w10-16 { width: 62.5%; }
+.w2-3, .w6-9, .w4-6, .w8-12 { width: 66.666666666666%; }
+.w11-16 { width: 68.75%; }
+.w7-10 { width: 70%; }
+.w5-7 { width: 71.428571428571%; }
+.w3-4, .w6-8, .w9-12 .w12-16 { width: 75%; }
+.w7-9 { width: 77.777777777777%; }
+.w4-5, .w8-10 { width: 80%; }
+.w13-16 { width: 81.25%; }
+.w5-6, .w10-12 { width: 83.333333333333%; }
+.w7-8, .w14-16 { width: 87.5%; }
+.w6-7 { width: 85.714285714285%; }
+.w8-9 { width: 88.888888888888%; }
+.w9-10 { width: 90%; }
+.w11-12 { width: 91.666666666666%; }
+.w15-16 { width: 93.75%; }
+.w100 { width: 100%; }
+
+@media (max-width: 35em) { .panel { width: 100%; } }
+
+.w1em { width: 16px; }
+.w2em { width: 32px; }
+.w3em { width: 3em; }
+.w4em { width: 64px; }
+.w5em { width: 5em; }
+.w6em { width: 6em; }
+.w7em { width: 7em; }
+.w8em { width: 128px; }
+.w9em { width: 9em; }
+.w10em { width: 10em; }
+.w11em { width: 11em; }
+.w12em { width: 12em; }
+
+.h1em { height: 1em; }
+.h2em { height: 2em; }
+.h3em { height: 3em; }
+.h4em { height: 4em; }
+.h5em { height: 5em; }
+.h6em { height: 6em; }
+.h7em { height: 7em; }
+.h8em { height: 8em; }
+.h9em { height: 9em; }
+.h10em { height: 10em; }
+.h11em { height: 11em; }
+.h12em { height: 12em; }

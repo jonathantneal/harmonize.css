@@ -1,0 +1,20 @@
+@font-face {
+	font-family: "Meslo LG S DZ";
+	src: url("meslolgsdz-regular.eot?") format("eot"), url("meslolgsdz-regular.woff") format("woff"), url("meslolgsdz-regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Meslo LG S DZ";
+	font-weight: bold;
+	src: url("meslolgsdz-bold.eot?") format("eot"), url("meslolgsdz-bold.woff") format("woff"), url("meslolgsdz-bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Meslo LG S DZ";
+	font-style: italic;
+	src: url("meslolgsdz-italic.eot?") format("eot"), url("meslolgsdz-italic.woff") format("woff"), url("meslolgsdz-italic.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Meslo LG S DZ";
+	font-style: italic;
+	font-weight: bold;
+	src: url("meslolgsdz-bolditalic.eot?") format("eot"), url("meslolgsdz-bolditalic.woff") format("woff"), url("meslolgsdz-bolditalic.ttf") format("truetype");
+}
